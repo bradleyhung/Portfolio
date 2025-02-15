@@ -34,7 +34,7 @@ export function Contact() {
 
       toast.success("Message sent successfully!");
       event.currentTarget.reset();
-    } catch (error) {
+    } catch {
       toast.error("Failed to send message. Please try again.");
     } finally {
       setIsSubmitting(false);

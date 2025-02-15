@@ -36,12 +36,12 @@ export function About() {
           >
             <h3 className="text-xl font-semibold mb-4">Background</h3>
             <p className="text-gray-600 leading-relaxed">
-              I'm a passionate software engineer with experience in building
-              modern web applications. I specialize in JavaScript technologies
-              across the stack and have professional experience working with
-              React and Node.js. When I'm not coding, you'll find me writing
-              about tech, contributing to open source, or exploring new
-              technologies.
+              I&apos;m a passionate software engineer with experience in
+              building modern web applications. I specialize in JavaScript
+              technologies across the stack and have professional experience
+              working with React and Node.js. When I&apos;m not coding,
+              you&apos;ll find me writing about tech, contributing to open
+              source, or exploring new technologies.
             </p>
           </motion.div>
 
