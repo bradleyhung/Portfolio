@@ -62,7 +62,7 @@ const projects = [
 export function Projects() {
   return (
     <section className="py-20 px-4" id="projects">
-      <div className="container mx-auto">
+      <div className="container mx-auto text-gray-600 ">
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}

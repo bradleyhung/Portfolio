@@ -39,7 +39,7 @@ export function Hero() {
           className="text-center"
         >
           <motion.h1
-            className="text-6xl font-bold text-gray-900 md:text-7xl lg:text-8xl tracking-tight"
+            className="text-6xl font-bold text-gray-500 md:text-7xl lg:text-8xl tracking-tight"
             animate={{ y: [0, -10, 0] }}
             transition={{
               duration: 4,

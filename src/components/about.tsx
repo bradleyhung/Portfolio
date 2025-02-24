@@ -23,7 +23,7 @@ export function About() {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-3xl font-bold text-center mb-12"
+          className="text-3xl text-gray-600 font-bold text-center mb-12"
         >
           About Me
         </motion.h2>
@@ -34,7 +34,7 @@ export function About() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
           >
-            <h3 className="text-xl font-semibold mb-4">Background</h3>
+            <h3 className="text-xl text-gray-600 font-semibold mb-4">Background</h3>
             <p className="text-gray-600 leading-relaxed">
               I&apos;m a passionate software engineer with experience in
               building modern web applications. I specialize in JavaScript
@@ -50,12 +50,12 @@ export function About() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
           >
-            <h3 className="text-xl font-semibold mb-4">Skills</h3>
+            <h3 className="text-xl text-gray-600 font-semibold mb-4">Skills</h3>
             <div className="flex flex-wrap gap-2">
               {skills.map((skill) => (
                 <span
                   key={skill}
-                  className="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm"
+                  className="px-3 py-1 bg-blue-300 text-blue-800 rounded-full text-sm"
                 >
                   {skill}
                 </span>

@@ -50,7 +50,7 @@ export function Contact() {
           viewport={{ once: true }}
           className="bg-blue-400 rounded-3xl shadow-lg p-6 md:p-8"
         >
-          <h2 className="text-3xl text-gray-700 font-bold text-center mb-8">
+          <h2 className="text-3xl text-gray-600 font-bold text-center mb-8">
             Shoot me a message!
           </h2>
           <form onSubmit={handleSubmit} className="space-y-6 text-gray-600">
