@@ -48,17 +48,23 @@ export function Contact() {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="bg-white rounded-lg shadow-lg p-6 md:p-8"
+          className="bg-blue-400 rounded-3xl shadow-lg p-6 md:p-8"
         >
-          <h2 className="text-3xl font-bold text-center mb-8">
+          <h2 className="text-3xl text-gray-700 font-bold text-center mb-8">
             Shoot me a message!
           </h2>
-          <form onSubmit={handleSubmit} className="space-y-6">
+          <form onSubmit={handleSubmit} className="space-y-6 text-gray-600">
             <div>
               <label htmlFor="name" className="block text-sm font-medium mb-2">
                 Name
               </label>
-              <Input id="name" name="name" required placeholder="Your name" />
+              <Input
+                id="name"
+                name="name"
+                required
+                placeholder="Your name"
+                className="focus:border-red-100"
+              />
             </div>
             <div>
               <label htmlFor="email" className="block text-sm font-medium mb-2">
@@ -70,6 +76,7 @@ export function Contact() {
                 type="email"
                 required
                 placeholder="Your@email.com"
+                className="focus:border-red-100"
               />
             </div>
             <div>
@@ -85,6 +92,7 @@ export function Contact() {
                 required
                 placeholder="Your message"
                 rows={4}
+                className="focus:border-red-100"
               />
             </div>
             <Button type="submit" className="w-full" disabled={isSubmitting}>

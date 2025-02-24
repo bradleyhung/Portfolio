@@ -32,14 +32,25 @@ export function Hero() {
   return (
     <section className="min-h-screen flex items-center justify-center px-4">
       <div className="text-center space-y-8">
-        <motion.h1
+        <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
-          className="text-6xl font-bold text-gray-900 md:text-7xl lg:text-8xl"
+          transition={{ duration: 0.8 }}
+          className="text-center"
         >
-          Hi, I&apos;m Bradley Hung
-        </motion.h1>
+          <motion.h1
+            className="text-6xl font-bold text-gray-900 md:text-7xl lg:text-8xl tracking-tight"
+            animate={{ y: [0, -10, 0] }}
+            transition={{
+              duration: 4,
+              repeat: Number.POSITIVE_INFINITY,
+              repeatType: "reverse",
+              ease: "easeInOut",
+            }}
+          >
+            Hi, I&apos;m Bradley Hung
+          </motion.h1>
+        </motion.div>
 
         <motion.p
           initial={{ opacity: 0, y: 20 }}
