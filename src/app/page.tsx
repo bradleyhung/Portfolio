@@ -1,9 +1,9 @@
-import { Header } from "@/components/header";
-import { Hero } from "@/components/hero";
-import { About } from "@/components/about";
-import { Projects } from "@/components/projects";
-import { Contact } from "@/components/contact";
-import { Footer } from "@/components/footer";
+import { Header } from "@/app/components/header";
+import { Hero } from "@/app/components/hero";
+import { About } from "@/app/components/about";
+import { Projects } from "@/app/components/projects";
+import { Contact } from "@/app/components/contact";
+import { Footer } from "@/app/components/footer";
 import { Toaster } from "sonner";
 
 export default function Home() {

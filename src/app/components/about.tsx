@@ -5,14 +5,23 @@ import { motion } from "framer-motion";
 const skills = [
   "Java",
   "C++",
-  "ReactJS",
-  "Next.js",
-  "Node.js",
-  "ExpressJS",
+  "TypeScript",
+  "JavaScript",
+  "SQL",
+  "Python",
+  "React",
+  "Next",
+  "Node",
+  "Express",
   "HTML",
-  "TailwindCSS",
+  "Tailwind",
   "Bootstrap",
-  "Git/Github",
+  "Firebase",
+  "MongoDB",
+  "Git",
+  "Amazon Web Services",
+  "Microsoft Office Suite",
+  "Figma",
 ];
 
 export function About() {
@@ -34,7 +43,9 @@ export function About() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
           >
-            <h3 className="text-xl text-gray-600 font-semibold mb-4">Background</h3>
+            <h3 className="text-xl text-gray-600 font-semibold mb-4">
+              Background
+            </h3>
             <p className="text-gray-600 leading-relaxed">
               I&apos;m a passionate software engineer with experience in
               building modern web applications. I specialize in JavaScript

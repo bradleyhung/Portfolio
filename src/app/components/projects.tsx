@@ -7,6 +7,23 @@ import Link from "next/link";
 
 const projects = [
   {
+    title: "StudyHub",
+    description:
+      "An AI-powered study assistant built to deliver fast, accurate, course-specific explanations across multiple computer science subjects, helping students save time, deepen understanding, and study more efficiently.",
+    image: "/assets/StudyHubImage.png",
+    tags: [
+      "Next.js",
+      "Flask",
+      "React",
+      "LangChain",
+      "ChromaDB",
+      "HuggingFace Embeddings",
+      "RAG",
+    ],
+    githubUrl: "https://github.com/bradleyhung/chatbot",
+    liveUrl: "https://chatbot-bradley.vercel.app/",
+  },
+  {
     title: "CampusQuest",
     description:
       'An innovative web application designed to foster student connections through customizable social activities. Whether it\'s a study session at the library, a casual lunch hangout, or an educational trip to the museum, students can create and share their own unique "Social Quests." This platform encourages collaboration, friendship, and enriching experiences, making campus life more engaging and enjoyable.',
@@ -26,9 +43,9 @@ const projects = [
     title: "PetPals",
     description:
       "A web application that will allow users without pets to explore various pet species and connect with current pet owners, fostering a sense of community and shared interest. Additionally, it will serve as a social media hub where pet owners can communicate, bond, and invite non-pet owners to join their activities.",
-    image: "/assets/PetpalImage.jpg",
+    image: "/assets/PetPalImage.png",
     tags: [
-      "NextJS",
+      "Next.js",
       "Express.js",
       "MongoDB",
       "TailwindCSS",
@@ -87,7 +104,7 @@ export function Projects() {
                   src={project.image}
                   alt={project.title}
                   fill
-                  className="object-cover transition-transform group-hover:scale-105"
+                  className="object-cover object-top transition-transform group-hover:scale-105"
                 />
               </div>
               <div className="p-6">
