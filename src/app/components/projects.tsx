@@ -97,7 +97,7 @@ export function Projects() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: index * 0.2 }}
-              className="group relative bg-blue rounded-lg shadow-lg overflow-hidden"
+              className="group relative bg-blue rounded-2xl shadow-lg overflow-hidden"
             >
               <div className="relative h-48 md:h-64">
                 <Image
