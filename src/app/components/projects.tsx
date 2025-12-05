@@ -63,7 +63,7 @@ const projects = [
     title: "ScholarshipFinder",
     description:
       "A dedicated platform designed exclusively for CUNY students to discover and apply for scholarships. Our mission is to empower students by providing a streamlined, user-friendly experience to access financial aid opportunities tailored to their unique profiles",
-    image: "/assets/ScholarshipImage.jpg",
+    image: "/assets/ScholarshipImage.png",
     tags: [
       "MongoDB",
       "TypeScript",
@@ -104,7 +104,7 @@ export function Projects() {
                   src={project.image}
                   alt={project.title}
                   fill
-                  className="object-cover object-top transition-transform group-hover:scale-105"
+                  className="object-cover transition-transform group-hover:scale-105"
                 />
               </div>
               <div className="p-6">
