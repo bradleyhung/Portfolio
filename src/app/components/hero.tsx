@@ -25,7 +25,7 @@ export function Hero() {
       icon: FileText, // Use FileText icon for the resume link
       href: "/assets/BradleyHungResume.pdf", // Path to your resume PDF
       label: "Resume",
-      download: true, // Add download attribute
+      download: false, // Add download attribute
     },
   ];
 
